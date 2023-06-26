@@ -28,8 +28,10 @@ import {
 
 export type Icon = LucideIcon
 
+const lg = () => <img src="/images/logo-c.png" height={24} width={24} alt="logo"/>;
+
 export const Icons = {
-  logo: Command,
+  logo: lg,
   close: X,
   spinner: Loader2,
   chevronLeft: ChevronLeft,
